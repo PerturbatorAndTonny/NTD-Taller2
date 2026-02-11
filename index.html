@@ -9,10 +9,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-        .carousel-item img {
-            height: 700px;
-            object-fit: cover;
-        }
+    .carousel-item img {
+        height: 700px;
+        object-fit: cover;
+    }
+
+    /* Fondo para el texto */
+    .carousel-caption {
+        background: rgba(163, 159, 159, 0.6); /* negro con transparencia */
+        padding: 20px;
+        border-radius: 15px;
+        backdrop-filter: blur(5px); /* efecto moderno (opcional) */
+    }
+
+    .carousel-caption h5,
+    .carousel-caption p {
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
     </style>
 </head>
 
@@ -20,7 +34,7 @@
 
 <div class="container mt-4">
 
-    <h2 class="text-center mb-4">Carrusel Animado</h2>
+    <h2 class="text-center mb-4">Carrusel Random</h2>
 
     <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
 
