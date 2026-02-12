@@ -15,7 +15,7 @@ Consiste en la creación de una página web colaborativa usando Git y GitHub.
 - GitHub
 
 ## 🌐 Enlace a GitHub Pages
-https://github.com/PerturbatorAndTonny/NTD-Taller2.git
+[https://github.com/PerturbatorAndTonny/NTD-Taller2.git](https://perturbatorandtonny.github.io/NTD-Taller2/)
 
 ## 📂 Estructura del proyecto
 - index.html
